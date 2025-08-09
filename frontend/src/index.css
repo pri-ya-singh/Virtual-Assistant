@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Hide browser-native password reveal icon */
+input[type='password']::-ms-reveal,
+input[type='password']::-ms-clear,
+input[type='password']::-webkit-reveal {
+  display: none !important;
+}
